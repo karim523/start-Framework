@@ -1,0 +1,53 @@
+.btn {
+  background-color: #1abc9c;
+}
+label {
+  color: #1abc9c;
+  z-index: 0;
+  transition: all .6s;
+}
+.top-40{
+  transform: translateY(30px);
+
+}
+i{
+  font-size: 20px;
+}
+input {
+  overflow: hidden;
+  z-index: 999;
+  position: relative;
+}
+.form-control:focus {
+  box-shadow: inset 0 1px 12px transparent, 0 0.1px 0 black;
+}
+span{
+  color: #2c3e50;
+  top: 50%;
+  right: 49.3%;
+}
+h1{
+  color:#2c3e50;
+}
+h1::before
+{
+content: '';
+width: 80px;
+height: 5px;
+background-color:#2c3e50;
+position: absolute;
+bottom: -30%;
+right: 50;
+transform: translate(50%);
+}
+h1::after
+{
+content: '';
+width: 80px;
+height: 5px;
+background-color:#2c3e50;
+position: absolute;
+bottom: -30%;
+right:50%;
+transform: translate(120%);
+}
